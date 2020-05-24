@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2020-05-23 16:43:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-05-16 16:41:35 +0000"
@@ -269,6 +275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-05-24 00:16:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2020-05-16 17:07:17 +0000"
@@ -362,6 +374,12 @@
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2020-05-23 02:00:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2020-05-23 14:56:19 +0000"
     },
     "done": true
   },
@@ -552,6 +570,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2020-05-23 14:56:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2020-05-16 16:41:32 +0000"
@@ -647,6 +671,8 @@
       "minecraft:blaze": "2020-05-19 16:39:17 +0000",
       "minecraft:pillager": "2020-05-19 15:13:38 +0000",
       "minecraft:skeleton": "2020-05-16 17:02:40 +0000",
+      "minecraft:ghast": "2020-05-23 16:42:19 +0000",
+      "minecraft:magma_cube": "2020-05-23 16:42:51 +0000",
       "minecraft:spider": "2020-05-16 17:07:58 +0000",
       "minecraft:creeper": "2020-05-16 17:45:13 +0000",
       "minecraft:phantom": "2020-05-19 17:04:23 +0000",
@@ -654,8 +680,10 @@
       "minecraft:witch": "2020-05-16 17:02:36 +0000",
       "minecraft:wither_skeleton": "2020-05-19 16:36:25 +0000",
       "minecraft:cave_spider": "2020-05-21 01:16:01 +0000",
+      "minecraft:piglin": "2020-05-23 16:20:37 +0000",
       "minecraft:silverfish": "2020-05-21 01:18:06 +0000",
       "minecraft:zombie": "2020-05-16 16:54:30 +0000",
+      "minecraft:drowned": "2020-05-23 14:47:11 +0000",
       "minecraft:zombie_villager": "2020-05-18 22:25:17 +0000"
     },
     "done": false
@@ -729,6 +757,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2020-05-16 16:47:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_red_flower": "2020-05-23 22:46:20 +0000"
     },
     "done": true
   },
@@ -1322,10 +1356,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2020-05-23 14:44:37 +0000",
       "minecraft:forest": "2020-05-16 16:40:44 +0000",
       "minecraft:mountains": "2020-05-18 23:20:59 +0000",
+      "minecraft:deep_cold_ocean": "2020-05-23 14:58:26 +0000",
       "minecraft:desert": "2020-05-18 23:00:08 +0000",
       "minecraft:badlands": "2020-05-18 23:00:09 +0000",
+      "minecraft:beach": "2020-05-23 14:44:58 +0000",
       "minecraft:dark_forest": "2020-05-16 17:25:15 +0000",
       "minecraft:river": "2020-05-16 17:24:06 +0000",
       "minecraft:wooded_mountains": "2020-05-20 19:19:59 +0000",
@@ -1480,6 +1517,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2020-05-23 14:56:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2020-05-16 17:17:44 +0000"
@@ -1574,6 +1617,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2020-05-16 16:48:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-05-24 00:16:34 +0000"
     },
     "done": true
   },
@@ -1706,6 +1755,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2020-05-16 16:41:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-05-23 15:15:50 +0000"
     },
     "done": true
   },
@@ -1882,6 +1937,7 @@
       "bread": "2020-05-19 01:58:33 +0000",
       "rotten_flesh": "2020-05-16 17:03:08 +0000",
       "salmon": "2020-05-22 02:03:10 +0000",
+      "golden_carrot": "2020-05-23 14:35:06 +0000",
       "cooked_chicken": "2020-05-19 01:19:57 +0000",
       "cooked_salmon": "2020-05-18 22:36:32 +0000",
       "carrot": "2020-05-19 17:57:55 +0000"
@@ -2808,6 +2864,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2020-05-23 23:17:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2020-05-19 15:24:53 +0000"
@@ -2925,6 +2987,12 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2020-05-20 19:28:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_red_flower": "2020-05-23 22:46:21 +0000"
     },
     "done": true
   },
